@@ -1,2 +1,2 @@
-# aula_javascript
+# aula_JavaScript
 meu primeiro projeto JavaScript
