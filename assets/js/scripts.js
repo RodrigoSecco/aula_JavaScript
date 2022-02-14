@@ -1,17 +1,19 @@
-let count = 0;
+let numero = 0
 
-const CURRENT_NUMBER = document.getElementById('currentNumber');
+function mostrar() {
+    const numero_Contador = document.getElementById("contador")
+    numero_Contador.innerText = numero
+}
+
 
 function increment() {
-	count++;
-	CURRENT_NUMBER.innerHTML = count;
+	numero++
+    mostrar()
 }
 
 function decrement() {
-	count--;
-	CURRENT_NUMBER.innerHTML = count;
+	numero--
+    mostrar()
 }
 
-function test() {
-	kdowkdpo;
-}
+mostrar()
