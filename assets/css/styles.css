@@ -9,18 +9,30 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: rgb(177, 225, 255);
+    background-color: rgb(134, 250, 225);
 }
 
-button {
+.botão {
     height: 40px;
     width: 40px;
     border-radius: 50%;
-    border: 2px solid lightcoral;
-    background-color: rgb(241, 214, 214);
-    color: lightcoral;
+    border: 2px solid rgb(253, 2, 2);
+    background-color: rgb(241, 143, 237);
+    color: rgb(22, 4, 124);
     font-size: 16pt;
-    font-weight: 600;
+    font-weight: 800;
+    text-align: center;
+}
+
+.botão2 {
+    height: 40px;
+    width: 80px;
+    border-radius: 10%;
+    border: 2px solid rgb(253, 2, 2);
+    background-color: rgb(241, 143, 237);
+    color: rgb(22, 4, 124);
+    font-size: 16pt;
+    font-weight: 800;
     text-align: center;
 }
 
@@ -32,5 +44,5 @@ button {
     display: flex;
     align-items: center;
     margin: 0 20px;
-    font-size: 16pt;
+    font-size: 30pt;
 }

@@ -16,4 +16,9 @@ function decrement() {
     mostrar()
 }
 
-mostrar()
+function zerar() {
+    numero = 0
+    mostrar()
+}
+
+
