@@ -27,7 +27,7 @@ body {
 .botão2 {
     height: 40px;
     width: 80px;
-    border-radius: 10%;
+    border-radius: 20px;
     border: 2px solid rgb(253, 2, 2);
     background-color: rgb(241, 143, 237);
     color: rgb(22, 4, 124);
